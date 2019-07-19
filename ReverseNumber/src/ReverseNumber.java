@@ -1,0 +1,18 @@
+
+public class ReverseNumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int mynymber = 1234, reversed = 0;
+		while (mynymber != 0) {
+			int digit = mynymber % 10;
+
+			reversed = reversed * 10 + digit;
+			mynymber /= 10;
+		}
+		System.out.println("Reversed Number: " + reversed);
+
+	}
+
+}
